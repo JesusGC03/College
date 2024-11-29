@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url(/img/1197357.jpg);
+    background-image: url(./img/1197357.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -102,46 +102,76 @@ header {
 
 /* SERVICIOS */
 
-.titulo-servicios {
-    display: flex;
-    justify-content: center;
+.clientes-contenedor {
+    background-color: #cecccc;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.clientes-contenedor .subtitulo {
     font-size: 40px;
-    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
 }
 
-.services {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-    margin: 10px;
-}
-
-.contenedor {
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    padding: 10px;
-}
-
-.contenedor img {
-    width: 100px;
-    height: 100px;
-    display: block;
-    object-fit: cover;
-}
-
-.contenido-contenedor {
+.cards {
     display: flex;
     justify-content: space-evenly;
 }
 
-.contenido-contenedor h3 {
+.cards .card {
+    background: black;
     display: flex;
-    justify-content: center;
-    padding-bottom: 2px;
-    font-weight: bold;
+    width: 30%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0.6);
+}
+
+.cards .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    display: block;
+}
+
+.cards .card .contenido-texto-card {
+    width: 60%;
+    color: white;
+}
+
+.cards .card .contenido-texto-card h4 {
     font-size: 30px;
+}
+
+.cards .card .contenido-texto-card p {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.cards .card .contenido-texto-card .btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin: 10px 0;
+}
+
+.cards .card .contenido-texto-card .btn:hover {
+    opacity: .8;
 }
 
 
@@ -149,6 +179,9 @@ header {
 
 .social-media {
     margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
 }
 
 .social-media p {
@@ -190,7 +223,8 @@ footer {
 footer h3 {
     font-size: 20px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .contact {
