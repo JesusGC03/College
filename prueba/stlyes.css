@@ -63,7 +63,7 @@ header {
     justify-content: center;
     font-size: 30px;
     font-weight: bold;
-    background: linear-gradient(to right, rgb(255, 255, 255), black);
+    background: linear-gradient(to right, rgb(0, 255, 221), rgb(0, 17, 255));
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -102,7 +102,8 @@ header {
 
 /* SERVICIOS */
 
-.clientes-contenedor {
+
+/* .clientes-contenedor {
     background-color: #cecccc;
     height: 350px;
     margin-top: 30px;
@@ -172,6 +173,89 @@ header {
 
 .cards .card .contenido-texto-card .btn:hover {
     opacity: .8;
+} */
+
+.todos-servicios {
+    margin: 40px;
+}
+
+.todos-servicios h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.servicio {
+    display: flex;
+    justify-content: left;
+}
+
+.servicio:nth-child(even) {
+    justify-content: right;
+}
+
+.contenido-servicio p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.contenido-servicio img {
+    width: 200px;
+    height: 200px;
+}
+
+.todos-servicios {
+    margin: 40px;
+}
+
+.todos-servicios h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Espaciado entre los servicios */
+}
+
+.servicio {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente los elementos */
+    gap: 20px;
+    /* Espaciado entre la imagen y el texto */
+}
+
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+    /* Invierte la posición para los elementos pares */
+}
+
+.servicio h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.contenido-servicio {
+    display: flex;
+    flex-direction: column;
+    /* Asegura que los textos estén en columna */
+    justify-content: center;
+}
+
+.contenido-servicio p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.contenido-servicio img {
+    width: 200px;
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+    /* Opcional: bordes redondeados */
 }
 
 
@@ -199,12 +283,15 @@ header {
 .links a {
     text-decoration: none;
     margin: 0 30px;
-    color: black;
+    color: rgb(0, 255, 221);
+    /* color: rgb(0, 17, 255) */
 }
 
 .links a:hover {
     transform: scale(1.2);
     transition: 0.4s ease-in-out;
+    color: rgb(0, 17, 255);
+    /* color: rgb(0, 255, 221); */
 }
 
 .links a i {
