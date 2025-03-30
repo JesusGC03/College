@@ -182,55 +182,27 @@ header {
 .todos-servicios h2 {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .servicio {
     display: flex;
-    justify-content: left;
+    align-items: center;
+    gap: 20px;
 }
 
 .servicio:nth-child(even) {
     justify-content: right;
 }
 
-.contenido-servicio p {
-    margin: 0;
-    line-height: 1.5;
-}
-
-.contenido-servicio img {
-    width: 200px;
-    height: 200px;
-}
-
-.todos-servicios {
-    margin: 40px;
-}
-
-.todos-servicios h2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
 .servicios {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* Espaciado entre los servicios */
-}
-
-.servicio {
-    display: flex;
-    align-items: center;
-    /* Alinea verticalmente los elementos */
-    gap: 20px;
-    /* Espaciado entre la imagen y el texto */
 }
 
 .servicio:nth-child(even) {
     flex-direction: row-reverse;
-    /* Invierte la posición para los elementos pares */
 }
 
 .servicio h3 {
@@ -240,9 +212,10 @@ header {
 
 .contenido-servicio {
     display: flex;
-    flex-direction: column;
-    /* Asegura que los textos estén en columna */
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .contenido-servicio p {
@@ -253,9 +226,7 @@ header {
 .contenido-servicio img {
     width: 200px;
     height: auto;
-    /* Mantiene la proporción de la imagen */
     border-radius: 8px;
-    /* Opcional: bordes redondeados */
 }
 
 

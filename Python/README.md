@@ -1,0 +1,1 @@
+Some of my notes and projects I did while studying -> Python
