@@ -188,54 +188,17 @@ header {
 .servicio {
     display: flex;
     align-items: center;
-<<<<<<< HEAD:HTML/CSS/prueba/stlyes.css
     gap: 20px;
-=======
-    background-color: green;
-    padding: 10px;
-    gap: 10px;
->>>>>>> 52dd987018d7dd0b94af5d69355df66118839ab1:prueba/stlyes.css
 }
 
 .servicio:nth-child(even) {
-    flex-direction: row-reverse;
-    background-color: skyblue;
+    justify-content: right;
 }
 
-.contenido-servicio {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-<<<<<<< HEAD:HTML/CSS/prueba/stlyes.css
-=======
-.contenido-servicio p {
-    margin: 0;
-    line-height: 1.5;
-}
-
-.contenido-servicio img {
-    width: 200px;
-    height: auto;
-}
-
-.todos-servicios {
-    margin: 40px;
-}
-
-.todos-servicios h2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
->>>>>>> 52dd987018d7dd0b94af5d69355df66118839ab1:prueba/stlyes.css
 .servicios {
     display: flex;
     flex-direction: column;
     gap: 20px;
-<<<<<<< HEAD:HTML/CSS/prueba/stlyes.css
 }
 
 .servicio:nth-child(even) {
@@ -264,8 +227,6 @@ header {
     width: 200px;
     height: auto;
     border-radius: 8px;
-=======
->>>>>>> 52dd987018d7dd0b94af5d69355df66118839ab1:prueba/stlyes.css
 }
 
 
